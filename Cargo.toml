@@ -49,3 +49,6 @@ path = "src/lib.rs"
 default = []
 fetch = [ "ureq", "directories", "zip", "walkdir" ]
 nightly = []
+
+[patch.crates-io]
+auto_generate_cdp = { version = "0.3", git = "https://github.com/mdrokz/auto_generate_cdp" }
