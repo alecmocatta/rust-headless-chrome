@@ -39,7 +39,7 @@ jpeg-decoder = { version = "0.1", default_features = false }
 filepath = "0.1.1"
 
 [build-dependencies]
-auto_generate_cdp = "0.3.2"
+# auto_generate_cdp = "0.3.2"
 
 [lib]
 name = "headless_chrome"
@@ -51,4 +51,4 @@ fetch = [ "ureq", "directories", "zip", "walkdir" ]
 nightly = []
 
 [patch.crates-io]
-auto_generate_cdp = { version = "0.3", git = "https://github.com/mdrokz/auto_generate_cdp" }
+# auto_generate_cdp = { version = "0.3", git = "https://github.com/mdrokz/auto_generate_cdp" }
